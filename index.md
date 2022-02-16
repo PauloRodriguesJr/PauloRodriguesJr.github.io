@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-You can use the [editor on GitHub](https://github.com/PauloRodriguesJr/PauloRodriguesJr.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+layout: home
+subtitle: "Estagiário em Robótica | Estudante de Engenharia de Automação e Robótica."
+---
+{% if page.subtitle %}
+<h3> {{ page.subtitle}} </h3>
+{% endif %}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!-- ![](photo.jpeg) -->
 
-### Markdown
+<div class='container2'>
+		<div>
+        	<div style='margin-right:10px;'>
+			    <img src='photo.jpeg' class='iconDetails'>
+		    </div>	
+        <p> Olá, bem vindo! </p> <p> 
+            Sou estudante de Engenharia de Instrumentação Automação e Robótica, juntamente com Ciência da Computação, na UFABC. Ao longo de minha formação, adquiri experiências com robótica móvel, aprendizado de máquina, visão computacional e eletrônica.
+        </p> <p> 
+            Atuei em projetos de pesquisa na área de SLAM visual, simulação robótica e aplicações em veículos autônomos. Sou capitão da equipe de drones Taphros Drone Systems e presidente do IEEE AESS UFABC. 
+        </p> <p>
+            Atualmente sou estagiário de desenvolvimento para robótica na Automni, onde tenho adquirido experiência com desenvolvimento de software, Linux, UI, ROS e processamento de PointClouds.
+            Sou entusiasta de ciência e tecnologia, desenvolvimento pessoal e praticante de Kung Fu. 
+         </p>
+	</div>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <link rel="stylesheet" href="main_style.css">
 
-```markdown
-Syntax highlighted code block
+<!-- <style type="text/css">
 
-# Header 1
-## Header 2
-### Header 3
+    .iconDetails {
+    max-width:30%;
+    max-height:30%;
+    margin-left:2%;
+   float:right; 
+   } 
+   
+   .container2 {
+       width:98%;
+       height:auto;
+       padding:1%;
+   }
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PauloRodriguesJr/PauloRodriguesJr.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+   /* .text-container {
+    line-height: 0;
+    margin-left: 2.5vw;
+} */
+   
+   .text-container {
+        margin-left:60px;
+       /* margin:0px;
+       margin-left: 10px; */
+}
+</style> 
+     -->
