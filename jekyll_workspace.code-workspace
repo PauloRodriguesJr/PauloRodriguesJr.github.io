@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "github_site",
+			"path": "../github_site"
+		},
+		{
+			"name": "Jekyll_tutor",
+			"path": "../Jekyll_tutor"
+		},
+		{
+			"name": "jekyll-tutorial-22",
+			"path": "../jekyll-tutorial-22"
+		},
+		{
+			"name": "site-name",
+			"path": "../site-name"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
