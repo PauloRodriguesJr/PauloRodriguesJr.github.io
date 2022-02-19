@@ -33,7 +33,8 @@ header_pages:
   - contact.md
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: jekyll/minima 
 minima:
   skin: solarized-dark
   social_links:
