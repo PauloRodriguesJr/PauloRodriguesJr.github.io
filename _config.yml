@@ -45,7 +45,7 @@ author:
 
 permalink: "/:title"
 
-google_analytics: UA-164140784-2
+#google_analytics: UA-164140784-2
 
 pwa:
   enabled: true # Optional
