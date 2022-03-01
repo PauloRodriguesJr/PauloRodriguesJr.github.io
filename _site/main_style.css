@@ -1,0 +1,23 @@
+.iconDetails {
+    max-width:30%;
+    max-height:30%;
+    margin-left:2%;
+   float:right; 
+   } 
+   
+   .container2 {
+       width:98%;
+       height:auto;
+       padding:1%;
+   }
+
+   /* .text-container {
+    line-height: 0;
+    margin-left: 2.5vw;
+} */
+   
+   .text-container {
+        margin-left:60px;
+       /* margin:0px;
+       margin-left: 10px; */
+}

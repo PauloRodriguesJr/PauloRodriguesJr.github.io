@@ -1,75 +1,55 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-title: SupeRails blog
+title: Paulo E. Rodrigues Jr
+email: pauloe_jr@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ruby on Rails TLDR articles, Courses, Tutorials, Tips & Tricks.
-  Also my adventures in hackathons, startups, teaching online.
-#baseurl: "" # the subpath of your site, e.g. /blog
+  Estagiário em Robótica e Estudante de Engenharia de Automação e Robótica.
+#baseurl: "/pt/" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima 
 
-disqus:
-  shortname: corsego
+header_pages:
+  - about.md
+  - projects.md
+  - contact.md
 
-links_to_prev_next: true
 
+# Build settings
 minima:
-  skin: classic
-  # skin: dark
-  # skin: solarized-dark
-  date_format: "%a, %b %-d, %Y"
+  skin: solarized-dark
   social_links:
-    twitter: yarotheslav
-    github: yshmarov
-    # linkedin: yshmarov
-    # facebook: yshmarov
-
+    github: PauloRodriguesJr
+    linkedin: paulo-eduardo-rodrigues-jr-042196167
+author:
+  name: Paulo Eduardo Rodrigues Jr.
+  email: "pauloe_jr@hotmail.com"
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-pwa-plugin
-
-tagline: Ruby on Rails and Indie Hacking
-
-feed:
-  posts_limit: 100
-
-author:
-  name: Yaroslav Shmarov
-  email: yashm@outlook.com
-
-#logo: /assets/corsego-saas-tree-logo.png
 
 permalink: "/:title"
 
-#google_analytics: UA-164140784-2
+my_description : "Estagiário em Robótica e Estudante de Engenharia de Automação e Robótica."
 
-pwa:
-  enabled: true # Optional
-  sw_src_filepath: service-worker.js # Optional
-  sw_dest_filename: service-worker.js # Optional
-  dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 5 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-  precache_glob_ignores: # Optional
-    - sw-register.js
-    - "fonts/**/*"
-
-#jekyll_admin:
-#  hidden_links:
-#    - posts
-#    - pages
-#    - staticfiles
-#    - datafiles
-#    - configuration
-
-# SEO tag useful info
-# https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# google_analytics: UA-NNNNNNNN-N 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
