@@ -1,19 +1,12 @@
 source "https://rubygems.org"
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-
-gem "minima", :git => "https://github.com/jekyll/minima.git", :branch => "master"
+gem "jekyll", "~> 4.1.1"
+gem "minima", git: "https://github.com/jekyll/minima"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
   gem 'jekyll-remote-theme'
+  gem 'jekyll-pwa-plugin', "= 2.2.3" # https://github.com/lavas-project/jekyll-pwa
   gem 'jekyll-admin'
 end
 
@@ -26,4 +19,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
