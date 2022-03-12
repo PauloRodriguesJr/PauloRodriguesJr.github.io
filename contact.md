@@ -12,7 +12,7 @@ permalink: /contact/
 ### Redes:
 
 * [LinkedIn](https://www.linkedin.com/in/paulo-eduardo-rodrigues-jr/)
-* [Research Gate](https://www.researchgate.net/profile/Paulo_Rodrigues)
+* [Research Gate](https://www.researchgate.net/profile/Paulo_Rodrigues56)
 * [Lattes](http://lattes.cnpq.br/1316494048285799)
 
 <!-- ATUALIZAR MEU LATTES!! -->
